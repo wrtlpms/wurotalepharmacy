@@ -1,16 +1,38 @@
-## Hi there 👋
+# Wuro Tale Pharmacy and Medical Supplies (WTPMS)
 
-<!--
-**wurotalepharmacy/wurotalepharmacy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to the official GitHub repository for **Wuro Tale Pharmacy and Medical Supplies (WTPMS)**.
 
-Here are some ideas to get you started:
+## Website Notice
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Our GitHub Pages site has moved!
+
+- **Old URL:** [https://wurotalepharmacy.github.io/wurotalepharmacy](https://wurotalepharmacy.github.io/wurotalepharmacy)
+- **New URL:** [https://wrtlpms.github.io/wurotalepharmacy](https://wrtlpms.github.io/wurotalepharmacy)
+
+Please update your bookmarks and links.
+
+## About
+
+WTPMS is dedicated to providing safe, affordable, and high-quality medical and pharmaceutical products across Gombe and surrounding areas.
+
+This repository contains the source code for the official website, built with:
+- HTML5
+- CSS3
+- Responsive layout
+- Medical-themed styling and icons
+
+## Pages
+
+- Home
+- About Us
+- Products
+- Services
+- Contact
+
+## Contact
+
+- **Phone:** +2348167569443  
+- **Email:** wurotalepharmacy@gmail.com  
+- **Location:** Gabukka Quarters, Gombe
+
+&copy; 2025 Wuro Tale Pharmacy and Medical Supplies. All rights reserved.
