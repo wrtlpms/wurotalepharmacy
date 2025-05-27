@@ -1,3 +1,12 @@
+.ceo-box {
+  text-align: center;
+  padding: 2rem;
+}
+.ceo-photo {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
 html, body {
   height: 100%;
   margin: 0;
