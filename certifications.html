@@ -25,12 +25,62 @@
         <button class="menu-toggle" onclick="toggleMenu()">☰</button>
     </header>
 
-    <main>
-        <section>
-            <h2>Certifications</h2>
-            <p><img src="images/ceo.jpg" alt="CEO" class="ceo"><br><img src="images/cert1.jpg" alt="Certificate"><br><img src="images/cert2.jpg" alt="Certificate"></p>
-        </section>
-    </main>
+  <main>
+  <style>
+    .cert-section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .cert-section img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .cert-text {
+      flex: 1;
+      min-width: 250px;
+    }
+  </style>
+
+  <h2>Our CEO</h2>
+  <div class="cert-section">
+    <img src="images/ceo.jpg" alt="CEO of WTPMS">
+    <div class="cert-text">
+      <p>
+        Meet the visionary behind Wuro Tale Pharmacy and Medical Supplies (WTPMS). Our CEO brings years of experience in pharmaceutical care, business management, and healthcare advocacy. His leadership is the cornerstone of our commitment to safety, integrity, and growth.
+      </p>
+      <p><strong>Comr. Muhammad Bello Shehu</strong><br>
+      B.Sc. Biology, Gombe State University</p>
+    </div>
+  </div>
+
+  <h2>Our Certifications</h2>
+
+  <div class="cert-section">
+    <img src="images/cert1.jpg" alt="Certificate 1">
+    <div class="cert-text">
+      <p>
+        This certificate affirms our ongoing training and compliance in medicine handling, pharmaceutical standards, and customer service protocols — ensuring excellence in service delivery.
+      </p>
+    </div>
+  </div>
+
+  <div class="cert-section">
+    <img src="images/cert2.jpg" alt="Certificate 2">
+    <div class="cert-text">
+      <p>
+        We are proud to be recognized by key authorities in the health industry. This certification demonstrates our alignment with NAFDAC, NAPPMED, and other regulatory bodies safeguarding public health.
+      </p>
+    </div>
+  </div>
+
+  <p>
+    Wuro Tale Pharmacy and Medical Supplies (WTPMS) believes in professionalism, transparency, and proper accreditation. While the current certificates are placeholders, our official documents are being processed and will soon be updated. These represent our promise of quality and continuous development in the pharmaceutical industry.
+  </p>
+  </main>  
 
     <footer>
         <p>&copy; 2025 Wuro Tale Pharmacy and Medical Supplies. All rights reserved.</p>
