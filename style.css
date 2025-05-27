@@ -1,3 +1,11 @@
+.staff-placeholder {
+  text-align: center;
+  padding: 2rem;
+}
+.staff-placeholder img {
+  width: 100px;
+  opacity: 0.6;
+}
 .ceo-box {
   text-align: center;
   padding: 2rem;
