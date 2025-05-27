@@ -26,36 +26,68 @@
     </header>
 
     <main>
-        <section>
-            <h2>Products</h2>
-            <p>
-  At Wuro Tale Pharmacy and Medical Supplies (WTPMS), we offer a diverse range of high-quality pharmaceutical and healthcare products designed to support the well-being of our customers. Every item on our shelves is selected with care and in full compliance with the National Agency for Food and Drug Administration and Control (NAFDAC) and the standards of the National Association of Patent and Proprietary Medicine Dealers (NAPPMED).
-</p>
-<p>
-  Our pharmaceutical section includes prescription medications, over-the-counter drugs, antibiotics, pain relievers, antihypertensives, antidiabetics, and many more life-saving medications. These are sourced from reputable manufacturers and stored in optimal conditions to maintain safety and efficacy.
-</p>
-<p>
-  We also carry a full stock of medical consumables such as gloves, syringes, surgical blades, IV fluids, antiseptics, and wound dressings. These supplies are ideal for clinics, hospitals, and individual medical use, and are available both in retail and bulk quantities.
-</p>
-<p>
-  WTPMS proudly supplies a selection of wellness and preventive care products, including multivitamins, dietary supplements, immune boosters, and herbal formulations. Our team can assist customers in selecting products best suited to their health goals or medical needs.
-</p>
-<p>
-  For new and expectant mothers, we provide a dedicated range of baby care essentials such as formula, baby wipes, diapers, infant medications, and skincare products that are dermatologist-tested and safe for sensitive skin.
-</p>
-<p>
-  Our medical device section includes blood pressure monitors, glucometers, digital thermometers, nebulizers, weighing scales, and orthopedic supports. These are carefully chosen for home and professional use, and come with warranties and user guides.
-</p>
-<p>
-  In addition to mainstream medicines, we carry selected herbal remedies and natural products approved by NAFDAC, offering a complementary approach to modern medicine where appropriate.
-</p>
-<p>
-  We are continually expanding our product portfolio to meet the growing demands of the healthcare market. Every product added to our inventory undergoes strict review for quality, compliance, and customer satisfaction.
-</p>
-<p>
-  At Wuro Tale Pharmacy and Medical Supplies (WTPMS), we believe in making essential health products accessible, affordable, and trustworthy. Whether for daily care, emergency needs, or long-term treatment, you’ll find exactly what you need in our store.
-</p>
-        </section>
+  <style>
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product-card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      background: #f9f9f9;
+    }
+    .product-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .product-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+    .product-card p {
+      font-size: 0.95rem;
+    }
+  </style>
+
+  <h2 style="text-align:center; margin-top: 20px;">Our Products</h2>
+  <p style="text-align:center; max-width: 700px; margin: 0 auto;">
+    At Wuro Tale Pharmacy and Medical Supplies (WTPMS), we offer a wide range of essential medicines, over-the-counter (OTC) drugs, medical supplies, and health products. Our products are sourced from reputable manufacturers and comply with all standards of NAFDAC and other regulatory bodies.
+  </p>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/product1.jpg" alt="Product 1">
+      <h3>Paracetamol Tablets</h3>
+      <p>Trusted pain and fever relief available in packs and retail units.</p>
+    </div>
+    <div class="product-card">
+      <img src="images/product2.jpg" alt="Product 2">
+      <h3>Blood Pressure Monitor</h3>
+      <p>Easy-to-use digital monitor for accurate blood pressure readings at home.</p>
+    </div>
+    <div class="product-card">
+      <img src="images/product3.jpg" alt="Product 3">
+      <h3>First Aid Kit</h3>
+      <p>Comprehensive emergency kit with bandages, gloves, antiseptics, and more.</p>
+    </div>
+    <div class="product-card">
+      <img src="images/product4.jpg" alt="Product 4">
+      <h3>Multivitamins</h3>
+      <p>Boost immunity and energy levels with daily multivitamin support.</p>
+    </div>
+  </div>
+
+  <p style="text-align:center; padding: 20px;">
+    This is just a sample of what we offer. Visit our store for more specialized medications, syringes, glucose monitors, pregnancy test kits, orthopedic support tools, and much more.
+  </p>
     </main>
 
     <footer>
