@@ -10,3 +10,8 @@ window.onload = function () {
     }, 2000);
   }
 };
+<script>
+  setTimeout(() => {
+    document.getElementById('splash-screen').style.display = 'none';
+  }, 1500);
+</script>
